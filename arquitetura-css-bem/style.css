@@ -5,3 +5,15 @@ Block = bloco de conteúdo
 Element = elementos
 Modifiers = modificadores
 */
+
+.button {
+    border: 1px solid #CCC;
+    background-color:#333;
+    color:#FFF;
+    padding:10px;
+    font-size:25px;
+    border-radius:5px;
+    text-decoration:none;
+    cursor:pointer;
+    font-family:Arial;
+}
