@@ -4,37 +4,40 @@ BEM = Block Element Modifier
 Block = bloco de conteúdo
 Element = elementos
 Modifiers = modificadores
+
+BLOCK
+- Sem dependencia hierarquica
+- Usar somente CLASS (não usar TAG e ID)
+ex:
+.form {
+    background-color:#CCC;
+}
+
+-------------------/-------------------
+
+ELEMENT
+- Nome é precedido do BLOCK e __
+ex:
+.form__input {
+    
+}
+
+-------------------/-------------------
+
+MODIFIERS
+- bloco--nome-do-modificador
+- form__input--nome-do-modificador
+ex:
+.form--theme-natal {
+    
+}
+
+-------------------/-------------------
+
+APLICANDO BEM EM CASCATA
+.form--big {
+}
+.form--big .form__input {
+}
 */
 
-
-/* BLOCKS */
-.button {
-    border: 1px solid #CCC;
-    background-color:#333;
-    color:#FFF;
-    padding:10px;
-    font-size:25px;
-    border-radius:5px;
-    text-decoration:none;
-    cursor:pointer;
-    font-family:Arial;
-}
-.title {
-    font-size:25px;
-    font-weight:bold;
-    font-family:Arial;
-}
-
-/* MODIFIERS */
-.button--green {
-    background-color:#0F0;
-}
-.button--blue {
-    background-color:#00F;
-}
-.button--big {
-    padding:15px;
-}
-.title--underline {
-    text-decoration:underline;
-}
