@@ -6,6 +6,8 @@ Element = elementos
 Modifiers = modificadores
 */
 
+
+/* BLOCKS */
 .button {
     border: 1px solid #CCC;
     background-color:#333;
@@ -16,4 +18,23 @@ Modifiers = modificadores
     text-decoration:none;
     cursor:pointer;
     font-family:Arial;
+}
+.title {
+    font-size:25px;
+    font-weight:bold;
+    font-family:Arial;
+}
+
+/* MODIFIERS */
+.button--green {
+    background-color:#0F0;
+}
+.button--blue {
+    background-color:#00F;
+}
+.button--big {
+    padding:15px;
+}
+.title--underline {
+    text-decoration:underline;
 }
