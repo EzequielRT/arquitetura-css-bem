@@ -40,4 +40,46 @@ APLICANDO BEM EM CASCATA
 .form--big .form__input {
 }
 */
+* {
+    box-sizing: border-box;
+}
 
+.form {
+    background-color:#EEE;
+    border:1px solid #CCC;
+    width:300px;
+    padding:15px;
+}
+.form__input {
+    border: 1px solid #CCC;
+    background-color:#FFF;
+    padding:10px;
+    font-size:17px;
+    display:block;
+    width:100%;
+    margin-bottom:10px;
+}
+.form__submit {
+    border: 1px solid #CCC;
+    background-color:#999;
+    padding:10px;
+    font-size:17px;
+    display:block;
+    width:100%;
+}
+.form--small {
+    padding:5px;
+}
+.form--small .form__input {
+    padding:5px;
+    font-size:13px;
+    margin-bottom:5px;  
+}
+.form--small .form__submit {
+    padding:5px;
+    font-size:13px; 
+}
+.form__submit--green {
+    background-color:#0F0;
+    color:#FFF;
+}
